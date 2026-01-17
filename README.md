@@ -2,34 +2,12 @@
 <h2>Machine Learning Methods for Studying Latent Neural Activity Dynamics</h2>
 </div>
 
-<div align="center">
-<b>XXX YY</b><sup>1∗</sup>,
-<b>XXX YY</b><sup>1∗</sup>,
-<b>XXX YY</b><sup>2∗</sup>,
-<b>XXX YY</b><sup>2</sup>,
-<b>XXX YY</b><sup>1</sup>,
-<b>XXX YY</b><sup>1</sup>,
-<b>XXX YY</b><sup>2</sup>,
-<b>XXX YY</b><sup>1†</sup>,
-<b>XXX YY</b><sup>1</sup>,
-<b>XXX YY</b><sup>1</sup>
-</div>
-<div align="center">
-<sup>1</sup>XXXX,YYY,ZZZ
-</div>
-<div align="center">
-<sup>2</sup>XXX,YYY,ZZZ
-</div>
-<br />
 
+This repository contains the resources for the paper.
 
-This repository contains the resources for paper **_A Survey of Latent Brain Neural Dynamics, Communication, and Behavior Alignment_**
-
+## Taxonomy
 ![taxonomy](figure/taxonomy.png)
 
-For more details, please refer to the paper: [A Survey of Latent Brain Neural Dynamics, Communication, and Behavior Alignment](#).
-
-## 🎉 Updates
 
 ## 📑 List of Survey Papers
 
