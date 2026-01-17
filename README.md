@@ -8,7 +8,7 @@
 
 ### 📖 About This Repository
 
-This repository provides the **Resource** for the survey paper titled **"Machine Learning Methods for Studying Latent Neural Activity Dynamics"**.
+This repository provides the Resource for the survey paper titled "Machine Learning Methods for Studying Latent Neural Activity Dynamics".
 
 While the main manuscript outlines the theoretical foundations and key advancements in the field, this repository provides a comprehensive, structured, and living catalog of:
 1.  **Literature:** A detailed taxonomy of state-of-the-art papers categorized by their modeling focus.
