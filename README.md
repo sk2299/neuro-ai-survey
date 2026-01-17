@@ -2,9 +2,6 @@
 <h2>Machine Learning Methods for Studying Latent Neural Activity Dynamics</h2>
 </div>
 
-
-This repository contains the resources for the paper.
-
 ## Taxonomy
 ![taxonomy](figure/taxonomy.png)
 
