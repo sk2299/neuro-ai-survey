@@ -1,16 +1,14 @@
 <div align="center">
 
-# Machine Learning Methods for Studying Latent Neural Activity Dynamics
-
-**Supplementary Appendix for IJCAI 2026 Survey Track Submission**
+## Machine Learning Methods for Studying Latent Neural Activity Dynamics
 
 </div>
 
 ---
 
-## 📖 About This Repository
+### 📖 About This Repository
 
-This repository serves as the **Online Appendix** for the survey paper titled **"Machine Learning Methods for Studying Latent Neural Activity Dynamics"**, submitted to the **35th International Joint Conference on Artificial Intelligence (IJCAI 2026)**, Survey Track.
+This repository provides the **Resource** for the survey paper titled **"Machine Learning Methods for Studying Latent Neural Activity Dynamics"**.
 
 While the main manuscript outlines the theoretical foundations and key advancements in the field, this repository provides a comprehensive, structured, and living catalog of:
 1.  **Literature:** A detailed taxonomy of state-of-the-art papers categorized by their modeling focus.
@@ -19,7 +17,7 @@ While the main manuscript outlines the theoretical foundations and key advanceme
 
 ---
 
-## 📚 Table of Contents
+### 📚 Table of Contents
 - [Taxonomy](#-taxonomy)
 - [List of Survey Papers](#-list-of-survey-papers)
   - [Single-Region Latent Dynamics](#single-region-latent-dynamics)
@@ -30,15 +28,15 @@ While the main manuscript outlines the theoretical foundations and key advanceme
 
 ---
 
-## 🧩 Taxonomy
+### 🧩 Taxonomy
 
 ![taxonomy](figure/taxonomy.png)
 
 ---
 
-## 📑 List of Survey Papers
+### 📑 List of Survey Papers
 
-### Single-Region Latent Dynamics
+#### Single-Region Latent Dynamics
 
 - **Representation learning for neural population activity with neural data transformers**, *arXiv 2021* [[paper](https://arxiv.org/abs/2108.01210)]
   - **Model:** NDT
@@ -115,7 +113,7 @@ While the main manuscript outlines the theoretical foundations and key advanceme
   - **Problem Setting:** Simultaneously separating "signal" structure locked to the stimulus from "noise" structure arising from random fluctuations.
   - **Methodology:** Combines Gaussian process factor models with Poisson observations using Fourier-domain black-box variational inference to estimate shared signal and trial-specific noise variables.
 
-### Multi-Region Communication in Latent Space
+#### Multi-Region Communication in Latent Space
 
 - **Disentangling the flow of signals between populations of neurons**, *Nature Computational Science 2022* [[paper](https://www.nature.com/articles/s43588-022-00282-5)]
   - **Model:** DLAG
@@ -197,7 +195,7 @@ While the main manuscript outlines the theoretical foundations and key advanceme
   - **Problem Setting:** Uncovering mechanisms determining brain network activation and dynamic alignment.
   - **Methodology:** Combines Neuropixels and wide-field calcium imaging with Reduced-Rank Regression (RRR) and CNMF to identify subspace dimensions.
 
-### Behavior-Aligned Latent Modeling
+#### Behavior-Aligned Latent Modeling
 
 - **Learnable latent embeddings for joint behavioural and neural analysis**, *Nature 2023* [[paper](https://www.nature.com/articles/s41586-023-06031-6)]
   - **Model:** CEBRA
@@ -281,9 +279,9 @@ While the main manuscript outlines the theoretical foundations and key advanceme
 
 ---
 
-## 💯 Datasets and Benchmarks
+### 💯 Datasets and Benchmarks
 
-### Task: Reaching
+#### Task: Reaching
 
 | Dataset | Size | Species | Subjects | Input | Output | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -293,7 +291,7 @@ While the main manuscript outlines the theoretical foundations and key advanceme
 | **NHP Reaching** [[Link](https://zenodo.org/records/3854034)] | 24 GB | Monkey | 2 | M1/S1 spikes | Position | Self-paced reaching in grid-target task |
 | **Reaching Dynamics** [[Link](https://dandiarchive.org/dandiset/000070/)] | 49.7 GiB | Rhesus | 2 | M1/PMd spikes | Spikes, position | Population activity, right-hand reaching |
 
-### Task: Maze / Spatial
+#### Task: Maze / Spatial
 
 | Dataset | Size | Species | Subjects | Input | Output | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -301,7 +299,7 @@ While the main manuscript outlines the theoretical foundations and key advanceme
 | **hc-2** [[Link](https://crcns.org/data-sets/hc/hc-2/about-hc-2)] | 136 GB | Rat | 3 | Hippocampal + video | LFP, spikes, pos | Open field foraging task |
 | **hc-11** [[Link](https://crcns.org/data-sets/hc/hc-11/about-hc-11)] | 8 sess | Rat | 4 | Spikes, LFP, EMG | CA1 firing, LFPs | Maze learning + rest recordings |
 
-### Task: Visual / Stimulus
+#### Task: Visual / Stimulus
 
 | Dataset | Size | Species | Subjects | Input | Output | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -310,21 +308,21 @@ While the main manuscript outlines the theoretical foundations and key advanceme
 | **Allen Visual Coding** [[Link](https://allensdk.readthedocs.io/en/latest/visual_coding_neuropixels.html)] | 855 GB | Mouse | 58 | Visual stimuli | Spikes, LFP | Multi-region mouse brain visual recordings |
 | **Steinmetz 2019** [[Link](https://figshare.com/articles/dataset/Steinmetz_et_al_2019_dataset/9598406)] | 8.25 GB | Mouse | / | Stimulus, wheel | Spikes + behavior | Visual perception and behavior |
 
-### Task: Memory / Cognitive
+#### Task: Memory / Cognitive
 
 | Dataset | Size | Species | Subj | Input | Output | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Mesoscale Map** [[Link](https://dandiarchive.org/dandiset/000363/0.231012.2129)] | 59.8 TiB | Mouse | 28 | Ephys + behavior | Spikes, behavior | Memory-guided movement across regions |
 | **Decision Term.** [[Link](https://zenodo.org/records/7946011)] | 565 MB | Monkey | 2 | Neural + behavior | Decision analysis | Decision termination study replication |
 
-### Task: Motor Perturbation / Force
+#### Task: Motor Perturbation / Force
 
 | Dataset | Size | Species | Subj | Input | Output | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Area2_Bump** [[Link](https://dandiarchive.org/dandiset/000127)] | 1.7 GiB | Rhesus | 1 | Kinematics, bumps | Area 2 spikes | Reaching with perturbations |
 | **DMFC_RSG** [[Link](https://dandiarchive.org/dandiset/000130)] | 14.9 MiB | Rhesus | 1 | Interval stimuli | Spike times | Time interval reproduction |
 
-### Task: Neural Recording
+#### Task: Neural Recording
 
 | Dataset | Size | Species | Subj | Input | Output | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -339,7 +337,7 @@ While the main manuscript outlines the theoretical foundations and key advanceme
 
 ---
 
-## 🧪 Metrics
+### 🧪 Metrics
 
 | Category | Metric | Definition | Evaluation Focus |
 | :--- | :--- | :--- | :--- |
