@@ -1,5 +1,5 @@
 <div align="center">
-<h2>A Survey of Latent Brain Neural Dynamics, Communication, and Behavior Alignment</h2>
+<h2>Machine Learning Methods for Studying Latent Neural Activity Dynamics</h2>
 </div>
 
 <div align="center">
